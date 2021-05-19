@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using CA.Domain.Entities;
 using CA.Domain.Interfaces;
 using CA.Infra.Data.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace CA.Infra.Data.Repositories
 {
@@ -15,29 +16,32 @@ namespace CA.Infra.Data.Repositories
             _context = context;
         }
 
-        public IEnumerable<Product> GetProducts()
+        public async Task<IEnumerable<Product>> GetProducts()
         {
-            return _context.Products;
+            return await _context.Products.ToListAsync();
         }
 
-        public Task<Product> GetById(int? id)
+        public async Task<Product> GetById(int? id)
         {
-            throw new System.NotImplementedException();
+            return await _context.Products.FindAsync(id); 
         }
 
         public void Add(Product product)
         {
-            throw new System.NotImplementedException();
+            _context.Add(product);
+            _context.SaveChanges();
         }
 
         public void Update(Product product)
         {
-            throw new System.NotImplementedException();
+            _context.Update(product);
+            _context.SaveChanges();
         }
 
         public void Remove(Product product)
         {
-            throw new System.NotImplementedException();
+            _context.Remove(product);
+            _context.SaveChanges();
         }
     }
 }

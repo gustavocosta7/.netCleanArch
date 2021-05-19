@@ -1,4 +1,8 @@
-﻿using CA.Infra.Data.Context;
+﻿using CA.Application.Interfaces;
+using CA.Application.Services;
+using CA.Domain.Interfaces;
+using CA.Infra.Data.Context;
+using CA.Infra.Data.Repositories;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -17,6 +21,9 @@ namespace CA.Infra.IoC
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IProductService, ProductService>();
 
             return services;
         }

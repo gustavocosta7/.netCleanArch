@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "h0Y0nmPg/bSN5K0HPVH/qZkhvjvyqDnwit+YEc35Khob89zaivwrbcXplFpM8sPbGoFHsY3ddweVbV5sARUqew==",
+  "dgSpecHash": "1qPtuid3prigb08Dm3JJf/4jIwvsBPT5HS9gUhAYIitVdfQQ9cuWcRDrMixK/VcQC0aEzNV8weh8PG3wRdO7HQ==",
   "success": true,
   "projectFilePath": "/home/gustavo/Documentos/projects/.netCleanArch/CA.Application/CA.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/gustavo/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/home/gustavo/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/home/gustavo/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -180,3 +180,4 @@ D:/repos/ca1/CA.MVC/obj/Debug/net5.0/CA.MVC.genruntimeconfig.cache
 /home/gustavo/Documentos/projects/.netCleanArch/CA.MVC/bin/Debug/net5.0/CA.Infra.IoC.dll
 /home/gustavo/Documentos/projects/.netCleanArch/CA.MVC/bin/Debug/net5.0/CA.Infra.IoC.pdb
 /home/gustavo/Documentos/projects/.netCleanArch/CA.MVC/bin/Debug/net5.0/CA.Application.pdb
+/home/gustavo/Documentos/projects/.netCleanArch/CA.MVC/bin/Debug/net5.0/AutoMapper.dll
