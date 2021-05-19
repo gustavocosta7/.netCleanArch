@@ -1,0 +1,12 @@
+D:\repos\ca1\CA.domain\bin\Debug\net5.0\CA.Domain.deps.json
+D:\repos\ca1\CA.domain\bin\Debug\net5.0\CA.Domain.dll
+D:\repos\ca1\CA.domain\bin\Debug\net5.0\ref\CA.Domain.dll
+D:\repos\ca1\CA.domain\bin\Debug\net5.0\CA.Domain.pdb
+D:\repos\ca1\CA.domain\obj\Debug\net5.0\CA.Domain.csprojAssemblyReference.cache
+D:\repos\ca1\CA.domain\obj\Debug\net5.0\CA.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\ca1\CA.domain\obj\Debug\net5.0\CA.Domain.AssemblyInfoInputs.cache
+D:\repos\ca1\CA.domain\obj\Debug\net5.0\CA.Domain.AssemblyInfo.cs
+D:\repos\ca1\CA.domain\obj\Debug\net5.0\CA.Domain.csproj.CoreCompileInputs.cache
+D:\repos\ca1\CA.domain\obj\Debug\net5.0\CA.Domain.dll
+D:\repos\ca1\CA.domain\obj\Debug\net5.0\ref\CA.Domain.dll
+D:\repos\ca1\CA.domain\obj\Debug\net5.0\CA.Domain.pdb

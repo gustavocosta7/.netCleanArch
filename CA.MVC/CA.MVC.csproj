@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>aspnet-CA.MVC-28DF6283-BAF7-481C-8211-30FFF11FF30E</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CA.Infra.Data\CA.Infra.Data.csproj" />
+  </ItemGroup>
+
+
+
+</Project>

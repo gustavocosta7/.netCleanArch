@@ -1,0 +1,15 @@
+D:\repos\ca1\CA.Application\bin\Debug\net5.0\CA.Application.deps.json
+D:\repos\ca1\CA.Application\bin\Debug\net5.0\CA.Application.dll
+D:\repos\ca1\CA.Application\bin\Debug\net5.0\ref\CA.Application.dll
+D:\repos\ca1\CA.Application\bin\Debug\net5.0\CA.Application.pdb
+D:\repos\ca1\CA.Application\bin\Debug\net5.0\CA.Domain.dll
+D:\repos\ca1\CA.Application\bin\Debug\net5.0\CA.Domain.pdb
+D:\repos\ca1\CA.Application\obj\Debug\net5.0\CA.Application.csprojAssemblyReference.cache
+D:\repos\ca1\CA.Application\obj\Debug\net5.0\CA.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\ca1\CA.Application\obj\Debug\net5.0\CA.Application.AssemblyInfoInputs.cache
+D:\repos\ca1\CA.Application\obj\Debug\net5.0\CA.Application.AssemblyInfo.cs
+D:\repos\ca1\CA.Application\obj\Debug\net5.0\CA.Application.csproj.CoreCompileInputs.cache
+D:\repos\ca1\CA.Application\obj\Debug\net5.0\CA.Application.csproj.CopyComplete
+D:\repos\ca1\CA.Application\obj\Debug\net5.0\CA.Application.dll
+D:\repos\ca1\CA.Application\obj\Debug\net5.0\ref\CA.Application.dll
+D:\repos\ca1\CA.Application\obj\Debug\net5.0\CA.Application.pdb
