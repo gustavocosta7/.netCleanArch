@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2rJcHoyePmsDKJglXJ/Eww4rpM8lG/s5R8c9so2xBs6QwXUkTQTTeYAz46hDKuBuU76/CugPLInIxh/VECKYSg==",
+  "dgSpecHash": "h0Y0nmPg/bSN5K0HPVH/qZkhvjvyqDnwit+YEc35Khob89zaivwrbcXplFpM8sPbGoFHsY3ddweVbV5sARUqew==",
   "success": true,
-  "projectFilePath": "D:\\repos\\ca1\\CA.Application\\CA.Application.csproj",
+  "projectFilePath": "/home/gustavo/Documentos/projects/.netCleanArch/CA.Application/CA.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

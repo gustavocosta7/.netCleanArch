@@ -6157,34 +6157,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gcost\\.nuget\\packages\\": {}
+    "/home/gustavo/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\repos\\ca1\\CA.Infra.Data\\CA.Infra.Data.csproj",
+      "projectUniqueName": "/home/gustavo/Documentos/projects/.netCleanArch/CA.Infra.Data/CA.Infra.Data.csproj",
       "projectName": "CA.Infra.Data",
-      "projectPath": "D:\\repos\\ca1\\CA.Infra.Data\\CA.Infra.Data.csproj",
-      "packagesPath": "C:\\Users\\gcost\\.nuget\\packages\\",
-      "outputPath": "D:\\repos\\ca1\\CA.Infra.Data\\obj\\",
+      "projectPath": "/home/gustavo/Documentos/projects/.netCleanArch/CA.Infra.Data/CA.Infra.Data.csproj",
+      "packagesPath": "/home/gustavo/.nuget/packages/",
+      "outputPath": "/home/gustavo/Documentos/projects/.netCleanArch/CA.Infra.Data/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gcost\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/gustavo/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\repos\\ca1\\CA.domain\\CA.Domain.csproj": {
-              "projectPath": "D:\\repos\\ca1\\CA.domain\\CA.Domain.csproj"
+            "/home/gustavo/Documentos/projects/.netCleanArch/CA.domain/CA.Domain.csproj": {
+              "projectPath": "/home/gustavo/Documentos/projects/.netCleanArch/CA.domain/CA.Domain.csproj"
             }
           }
         }
@@ -6235,7 +6233,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/gustavo/dotnet5/sdk/5.0.202/RuntimeIdentifierGraph.json"
       }
     }
   }

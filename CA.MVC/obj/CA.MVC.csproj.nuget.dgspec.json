@@ -1,33 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\ca1\\CA.MVC\\CA.MVC.csproj": {}
+    "/home/gustavo/Documentos/projects/.netCleanArch/CA.MVC/CA.MVC.csproj": {}
   },
   "projects": {
-    "D:\\repos\\ca1\\CA.domain\\CA.Domain.csproj": {
+    "/home/gustavo/Documentos/projects/.netCleanArch/CA.Application/CA.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\ca1\\CA.domain\\CA.Domain.csproj",
-        "projectName": "CA.Domain",
-        "projectPath": "D:\\repos\\ca1\\CA.domain\\CA.Domain.csproj",
-        "packagesPath": "C:\\Users\\gcost\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\ca1\\CA.domain\\obj\\",
+        "projectUniqueName": "/home/gustavo/Documentos/projects/.netCleanArch/CA.Application/CA.Application.csproj",
+        "projectName": "CA.Application",
+        "projectPath": "/home/gustavo/Documentos/projects/.netCleanArch/CA.Application/CA.Application.csproj",
+        "packagesPath": "/home/gustavo/.nuget/packages/",
+        "outputPath": "/home/gustavo/Documentos/projects/.netCleanArch/CA.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gcost\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/gustavo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/gustavo/Documentos/projects/.netCleanArch/CA.domain/CA.Domain.csproj": {
+                "projectPath": "/home/gustavo/Documentos/projects/.netCleanArch/CA.domain/CA.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -54,36 +56,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/gustavo/dotnet5/sdk/5.0.202/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\repos\\ca1\\CA.Infra.Data\\CA.Infra.Data.csproj": {
+    "/home/gustavo/Documentos/projects/.netCleanArch/CA.Infra.Data/CA.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\ca1\\CA.Infra.Data\\CA.Infra.Data.csproj",
+        "projectUniqueName": "/home/gustavo/Documentos/projects/.netCleanArch/CA.Infra.Data/CA.Infra.Data.csproj",
         "projectName": "CA.Infra.Data",
-        "projectPath": "D:\\repos\\ca1\\CA.Infra.Data\\CA.Infra.Data.csproj",
-        "packagesPath": "C:\\Users\\gcost\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\ca1\\CA.Infra.Data\\obj\\",
+        "projectPath": "/home/gustavo/Documentos/projects/.netCleanArch/CA.Infra.Data/CA.Infra.Data.csproj",
+        "packagesPath": "/home/gustavo/.nuget/packages/",
+        "outputPath": "/home/gustavo/Documentos/projects/.netCleanArch/CA.Infra.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gcost\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/gustavo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\repos\\ca1\\CA.domain\\CA.Domain.csproj": {
-                "projectPath": "D:\\repos\\ca1\\CA.domain\\CA.Domain.csproj"
+              "/home/gustavo/Documentos/projects/.netCleanArch/CA.domain/CA.Domain.csproj": {
+                "projectPath": "/home/gustavo/Documentos/projects/.netCleanArch/CA.domain/CA.Domain.csproj"
               }
             }
           }
@@ -134,36 +134,99 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/gustavo/dotnet5/sdk/5.0.202/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\repos\\ca1\\CA.MVC\\CA.MVC.csproj": {
+    "/home/gustavo/Documentos/projects/.netCleanArch/CA.Infra.IoC/CA.Infra.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\ca1\\CA.MVC\\CA.MVC.csproj",
-        "projectName": "CA.MVC",
-        "projectPath": "D:\\repos\\ca1\\CA.MVC\\CA.MVC.csproj",
-        "packagesPath": "C:\\Users\\gcost\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\ca1\\CA.MVC\\obj\\",
+        "projectUniqueName": "/home/gustavo/Documentos/projects/.netCleanArch/CA.Infra.IoC/CA.Infra.IoC.csproj",
+        "projectName": "CA.Infra.IoC",
+        "projectPath": "/home/gustavo/Documentos/projects/.netCleanArch/CA.Infra.IoC/CA.Infra.IoC.csproj",
+        "packagesPath": "/home/gustavo/.nuget/packages/",
+        "outputPath": "/home/gustavo/Documentos/projects/.netCleanArch/CA.Infra.IoC/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gcost\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/gustavo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\repos\\ca1\\CA.Infra.Data\\CA.Infra.Data.csproj": {
-                "projectPath": "D:\\repos\\ca1\\CA.Infra.Data\\CA.Infra.Data.csproj"
+              "/home/gustavo/Documentos/projects/.netCleanArch/CA.Application/CA.Application.csproj": {
+                "projectPath": "/home/gustavo/Documentos/projects/.netCleanArch/CA.Application/CA.Application.csproj"
+              },
+              "/home/gustavo/Documentos/projects/.netCleanArch/CA.Infra.Data/CA.Infra.Data.csproj": {
+                "projectPath": "/home/gustavo/Documentos/projects/.netCleanArch/CA.Infra.Data/CA.Infra.Data.csproj"
+              },
+              "/home/gustavo/Documentos/projects/.netCleanArch/CA.domain/CA.Domain.csproj": {
+                "projectPath": "/home/gustavo/Documentos/projects/.netCleanArch/CA.domain/CA.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/gustavo/dotnet5/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/gustavo/Documentos/projects/.netCleanArch/CA.MVC/CA.MVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gustavo/Documentos/projects/.netCleanArch/CA.MVC/CA.MVC.csproj",
+        "projectName": "CA.MVC",
+        "projectPath": "/home/gustavo/Documentos/projects/.netCleanArch/CA.MVC/CA.MVC.csproj",
+        "packagesPath": "/home/gustavo/.nuget/packages/",
+        "outputPath": "/home/gustavo/Documentos/projects/.netCleanArch/CA.MVC/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gustavo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/gustavo/Documentos/projects/.netCleanArch/CA.Infra.Data/CA.Infra.Data.csproj": {
+                "projectPath": "/home/gustavo/Documentos/projects/.netCleanArch/CA.Infra.Data/CA.Infra.Data.csproj"
+              },
+              "/home/gustavo/Documentos/projects/.netCleanArch/CA.Infra.IoC/CA.Infra.IoC.csproj": {
+                "projectPath": "/home/gustavo/Documentos/projects/.netCleanArch/CA.Infra.IoC/CA.Infra.IoC.csproj"
               }
             }
           }
@@ -195,7 +258,59 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/gustavo/dotnet5/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/gustavo/Documentos/projects/.netCleanArch/CA.domain/CA.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gustavo/Documentos/projects/.netCleanArch/CA.domain/CA.Domain.csproj",
+        "projectName": "CA.Domain",
+        "projectPath": "/home/gustavo/Documentos/projects/.netCleanArch/CA.domain/CA.Domain.csproj",
+        "packagesPath": "/home/gustavo/.nuget/packages/",
+        "outputPath": "/home/gustavo/Documentos/projects/.netCleanArch/CA.domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gustavo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/gustavo/dotnet5/sdk/5.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }

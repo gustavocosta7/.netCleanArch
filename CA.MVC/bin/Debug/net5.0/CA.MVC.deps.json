@@ -34,6 +34,7 @@
       "CA.MVC/1.0.0": {
         "dependencies": {
           "CA.Infra.Data": "1.0.0",
+          "CA.Infra.IoC": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -446,7 +447,7 @@
           "runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-arm",
             "assetType": "native",
-            "fileVersion": "2.0.1.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb": {
             "rid": "win-arm",
@@ -456,7 +457,7 @@
           "runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "2.0.1.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb": {
             "rid": "win-arm64",
@@ -466,7 +467,7 @@
           "runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "2.0.1.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb": {
             "rid": "win-x64",
@@ -476,7 +477,7 @@
           "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "2.0.1.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb": {
             "rid": "win-x86",
@@ -1445,6 +1446,17 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "CA.Application/1.0.0": {
+        "dependencies": {
+          "CA.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CA.Application.dll": {}
+        },
+        "compile": {
+          "CA.Application.dll": {}
+        }
+      },
       "CA.Domain/1.0.0": {
         "runtime": {
           "CA.Domain.dll": {}
@@ -1467,6 +1479,19 @@
         },
         "compile": {
           "CA.Infra.Data.dll": {}
+        }
+      },
+      "CA.Infra.IoC/1.0.0": {
+        "dependencies": {
+          "CA.Application": "1.0.0",
+          "CA.Domain": "1.0.0",
+          "CA.Infra.Data": "1.0.0"
+        },
+        "runtime": {
+          "CA.Infra.IoC.dll": {}
+        },
+        "compile": {
+          "CA.Infra.IoC.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -3875,12 +3900,22 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
+    "CA.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "CA.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "CA.Infra.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CA.Infra.IoC/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

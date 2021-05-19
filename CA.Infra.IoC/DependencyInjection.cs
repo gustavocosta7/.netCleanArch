@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CA.Infra.Data
+namespace CA.Infra.IoC
 {
     public static class DependencyInjection
     {
